@@ -1,0 +1,45 @@
+! special
+*.foreground:   #161503
+*.background:   #ad9266
+*.cursorColor:  #161503
+
+! black
+*.color0:       #382c10
+*.color8:       #4e4020
+
+! red
+*.color1:       #3e3318
+*.color9:       #4e432a
+
+! green
+*.color2:       #938872
+*.color10:      #b8ae9a
+
+! yellow
+*.color3:       #aa9779
+*.color11:      #cebea5
+
+! blue
+*.color4:       #cdb792
+*.color12:      #f2e2c8
+
+! magenta
+*.color5:       #e4d8b6
+*.color13:      #fff8e4
+
+! cyan
+*.color6:       #eae3cd
+*.color14:      #fffcf1
+
+! white
+*.color7:       #f2efe4
+*.color15:      #fffefb
+
+!URxvt Appearance and functionality
+URxvt.scrollBar: false
+URxvt.font: xft:Inconsolata:size=12
+URxvt.internalBorder: 12
+URxvt.keysym.Shift-Control-V: eval:paste_clipboard
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
+URxvt.iso14755: false
+URxvt.iso14755_52: false
