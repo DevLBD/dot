@@ -35,18 +35,10 @@
 *.color7:       #f2efe4
 *.color15:      #fffefb
 
-!URxvt Appearance and functionality
-URxvt.scrollBar: false
-URxvt.font: xft:Inconsolata:size=12
-URxvt.internalBorder: 12
-URxvt.keysym.Shift-Control-V: eval:paste_clipboard
-URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
-URxvt.iso14755: false
-URxvt.iso14755_52: false
 
 !URxvt Appearance and functionality
 URxvt.scrollBar: false
-URxvt.font: xft:JetBrainsMono Nerd Font:size=12
+URxvt.font: xft:JetBrainsMono Nerd Font:size=10
 URxvt.internalBorder: 12
 URxvt.keysym.Shift-Control-V: eval:paste_clipboard
 URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
