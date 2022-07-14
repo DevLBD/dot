@@ -38,8 +38,8 @@
 
 !URxvt Appearance and functionality
 URxvt.scrollBar: false
-URxvt.font: xft:JetBrainsMono Nerd Font:size=10
-URxvt.internalBorder: 12
+URxvt.font: xft:JetBrainsMono Nerd Font:size=11.5
+URxvt.internalBorder: 10
 URxvt.keysym.Shift-Control-V: eval:paste_clipboard
 URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
 URxvt.iso14755: false
