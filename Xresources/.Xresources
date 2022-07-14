@@ -12,12 +12,12 @@
 *.color9:       #4e432a
 
 ! green
-*.color2:       #938872
-*.color10:      #b8ae9a
+*.color2:       #3d3a35
+*.color10:      #2f2d29
 
 ! yellow
-*.color3:       #aa9779
-*.color11:      #cebea5
+*.color3:       #1d1c19
+*.color11:      #0e0d0c
 
 ! blue
 *.color4:       #cdb792
@@ -38,6 +38,15 @@
 !URxvt Appearance and functionality
 URxvt.scrollBar: false
 URxvt.font: xft:Inconsolata:size=12
+URxvt.internalBorder: 12
+URxvt.keysym.Shift-Control-V: eval:paste_clipboard
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+
+!URxvt Appearance and functionality
+URxvt.scrollBar: false
+URxvt.font: xft:JetBrainsMono Nerd Font:size=12
 URxvt.internalBorder: 12
 URxvt.keysym.Shift-Control-V: eval:paste_clipboard
 URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
