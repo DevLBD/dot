@@ -2,7 +2,7 @@
 
 WM_DESKTOP=$(xdotool getwindowfocus)
 
-if [ $WM_DESKTOP == "56623113" ]; then
+if [ $WM_DESKTOP == "2097251" ]; then
 
 	echo "i3"
 
